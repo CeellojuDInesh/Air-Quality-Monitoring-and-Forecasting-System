@@ -1,0 +1,30 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+venv*/
+env/
+ENV/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+
+# Logs and outputs
+*.log
+check_output.txt
+phase2_output*.txt
+phase2_eda_output.txt
+training_output.txt
+.matplotlib/
+
+# Preserve trained model and scalers
+!models/lstm_aqi_model.keras
+!data/processed/scaler_features.pkl
+!data/processed/scaler_target.pkl
+!data/processed/*.npy
